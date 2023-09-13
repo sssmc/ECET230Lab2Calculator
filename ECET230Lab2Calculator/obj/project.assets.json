@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CalculatorLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CalculatorLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CalculatorLib/1.0.0": {
+      "type": "project",
+      "path": "../CalculatorLib/CalculatorLib.csproj",
+      "msbuildProject": "../CalculatorLib/CalculatorLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CalculatorLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/sebastien/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj": {
+              "projectPath": "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

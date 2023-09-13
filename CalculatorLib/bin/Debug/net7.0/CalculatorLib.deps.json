@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "ECET230Lab2Calculator/1.0.0": {
-        "dependencies": {
-          "CalculatorLib": "1.0.0"
-        },
-        "runtime": {
-          "ECET230Lab2Calculator.dll": {}
-        }
-      },
       "CalculatorLib/1.0.0": {
         "runtime": {
           "CalculatorLib.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "ECET230Lab2Calculator/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CalculatorLib/1.0.0": {
       "type": "project",
       "serviceable": false,
