@@ -39,9 +39,10 @@ class Program
             Console.Write("Enter First Number: ");
             string num1String = Console.ReadLine();
             double num1;
-            while(!double.TryParse(num1String, out num1))
+            while (!double.TryParse(num1String, out num1))
             {
                 Console.Write("Input is not a number, try again: ");
+                num1String = Console.ReadLine();
             }
 
             Console.Write("Enter Second Number: ");
@@ -50,6 +51,7 @@ class Program
             while (!double.TryParse(num2String, out num2))
             {
                 Console.Write("Input is not a number, try again: ");
+                num2String = Console.ReadLine();
             }
 
             Console.WriteLine(@"Select from the following operation
@@ -59,7 +61,15 @@ class Program
                                 / - Devide");
             Console.Write("Enter Operation: ");
             string op = Console.ReadLine();
-            Console.WriteLine($"{num1} {op} {num2} = {Calculator.doOperation(num1, num2, op)}");
+            double result = Calculator.doOperation(num1, num2, op);
+            if (double.IsNaN(result))
+            {
+                Console.WriteLine("Invailid Math Operation");
+            }
+            else
+            {
+                Console.WriteLine($"{num1} {op} {num2} = {result}");
+            }
             Console.WriteLine("------------------------------------------------------");
             Console.Write("Enter x to exit program or any other key to continue: ");
             string input = Console.ReadLine();

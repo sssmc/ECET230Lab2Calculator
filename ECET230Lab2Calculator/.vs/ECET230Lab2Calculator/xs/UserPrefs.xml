@@ -1,4 +1,25 @@
 ﻿<Properties StartupConfiguration="{7E04E645-9B9C-4CBB-85C4-9286C34CDC5D}|Default">
-  <MonoDevelop.Ide.ItemProperties.ECET230Lab2Calculator FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ECET230Lab2Calculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="65" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECET230Lab2Calculator">
+            <Node name="ECET230Lab2Calculator">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
