@@ -68,5 +68,7 @@ class Program
                 stopProgram = true;
             }
         }
+        calculator.Finish();
+        return;
     }
 }
