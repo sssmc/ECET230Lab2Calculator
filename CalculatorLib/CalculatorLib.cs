@@ -10,7 +10,8 @@ namespace CalculatorLib
 
         public Calculator()
         {
-            StreamWriter logFile = File.CreateText("calculator.log");
+            //Start JSON logging
+            StreamWriter logFile = File.CreateText("calculator.json");
             Trace.AutoFlush = true;
             writer = new JsonTextWriter(logFile);
             writer.Formatting = Formatting.Indented;
@@ -19,6 +20,7 @@ namespace CalculatorLib
             writer.WriteStartArray();
 
         }
+        //Finish the JSON log file
         public void Finish()
         {
             writer.WriteEndArray();
@@ -31,6 +33,7 @@ namespace CalculatorLib
             //Default the result to NaN
             double result = double.NaN;
 
+            //JSON logging
             writer.WriteStartObject();
             writer.WritePropertyName("Operand1");
             writer.WriteValue(num1);
@@ -69,10 +72,12 @@ namespace CalculatorLib
                     }
                     break;
                 case "^":
+                    //Power
                     result = Math.Pow(num1, num2);
                     writer.WriteValue("Power");
                     break;
             }
+            //JSON logging
             writer.WritePropertyName("Result");
             writer.WriteValue(result);
             writer.WriteEndObject();

@@ -1,4 +1,8 @@
-﻿using System.Diagnostics;
+﻿//ECET 230 - Sebastien Robitaille
+
+//Commandline Calculator supporting add, subtract, multiply, divide, and power operations
+
+using System.Diagnostics;
 
 using CalculatorLib;
 
