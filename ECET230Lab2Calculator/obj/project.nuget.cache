@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XYyYtS3/flqGvYcVUeADKlOTm/qhOM2PxbRy97TL3w20kiwqjvbxueZdcEWqzKoJXRa4k7dyjDEqaaQh4XTliA==",
+  "dgSpecHash": "Hjv02EiosP31u8Rb1RDD6LGBMpjpQX20NDk9cX+Ws9lomLwfjbOH2IrMzbEuTQ0uXToV1MX2JCAwn9/fqhYO2g==",
   "success": true,
   "projectFilePath": "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/ECET230Lab2Calculator/ECET230Lab2Calculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sebastien/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

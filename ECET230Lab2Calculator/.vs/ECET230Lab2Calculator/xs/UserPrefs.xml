@@ -1,18 +1,25 @@
 ﻿<Properties StartupConfiguration="{7E04E645-9B9C-4CBB-85C4-9286C34CDC5D}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="94" Column="47" />
+      <File FileName="Program.cs" Line="11" Column="10" />
+      <File FileName="../CalculatorLib/CalculatorLib.cs" Line="12" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="ECET230Lab2Calculator" selected="True">
+            <Node name="CalculatorLib" expanded="True" />
+            <Node name="ECET230Lab2Calculator" expanded="True" />
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.CalculatorLib FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ECET230Lab2Calculator PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

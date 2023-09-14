@@ -1,9 +1,15 @@
-﻿using CalculatorLib;
+﻿using System.Diagnostics;
+
+using CalculatorLib;
+
 class Program
 {
     static void Main(string[] args)
     {
+        Calculator calculator = new Calculator();
+
         var stopProgram = false;
+
         Console.WriteLine("Welcome to the Calculator App by Sebastien Robitaille");
         Console.WriteLine("-----------------------------------------------------");
 
@@ -41,7 +47,7 @@ class Program
             string op = Console.ReadLine();
 
             //Calculate the result
-            double result = Calculator.doOperation(num1, num2, op);
+            double result = calculator.doOperation(num1, num2, op);
             //Check if result is Nan(tried to divide by zero)
             if (double.IsNaN(result))
             {
