@@ -68,6 +68,10 @@ namespace CalculatorLib
                         writer.WriteValue("NaN");
                     }
                     break;
+                case "^":
+                    result = Math.Pow(num1, num2);
+                    writer.WriteValue("Power");
+                    break;
             }
             writer.WritePropertyName("Result");
             writer.WriteValue(result);

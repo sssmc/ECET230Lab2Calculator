@@ -39,10 +39,11 @@ class Program
 
             //Ask user for operation
             Console.WriteLine(@"Select from the following operation
-                                + - Add
-                                - - Subtract
-                                * - Multiply
-                                / - Devide");
+             + - Add
+            - - Subtract
+            * - Multiply
+            / - Divide
+            ^ - power(first number to the second num");
             Console.Write("Enter Operation: ");
             string op = Console.ReadLine();
 
