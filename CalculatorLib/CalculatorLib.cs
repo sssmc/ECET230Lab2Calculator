@@ -19,6 +19,32 @@ namespace CalculatorLib
 
             input = Regex.Replace(input, @"s", "");
 
+            //Brackets
+
+            int openingBracket = input.IndexOf('(');
+            if(openingBracket != -1)
+            {
+                if(input.IndexOf('(', openingBracket + 1) != -1)
+                {
+                    string subString = input.Substring(openingBracket + 1);
+                    input = parseOperationString(subString).ToString();
+
+                }
+                else
+                {
+                    int closingBracket = input.IndexOf(")");
+                    if (closingBracket == -1)
+                    {
+                        Console.WriteLine("Bracket Error");
+                    }
+                    else
+                    {
+                        string subString = input.Substring(openingBracket + 1, (closingBracket - openingBracket) - 1);
+                        input = input.Substring(0, openingBracket) + parseOperationString(subString).ToString();
+                    }
+                }
+            }
+
             string[] input_array = Regex.Split(input, @"([*()\^\/]|(?<!E)[\+\-])");
 
             if (input_array.Length > 2)
