@@ -20,50 +20,11 @@ class Program
         while (!stopProgram)
         {
             //Ask User for first number
-            Console.Write("Enter First Number: ");
-            string num1String = Console.ReadLine();
-            double num1;
-            //Loop until user inputs a valid double
-            while (!double.TryParse(num1String, out num1))
-            {
-                Console.Write("Input is not a number, try again: ");
-                num1String = Console.ReadLine();
-            }
+            Console.Write("Enter Equation: ");
+            string equation = Console.ReadLine();
 
-            //Ask user for second number
-            Console.Write("Enter Second Number: ");
-            string num2String = Console.ReadLine();
-            double num2;
-            //Loop until user inputs a valid double
-            while (!double.TryParse(num2String, out num2))
-            {
-                Console.Write("Input is not a number, try again: ");
-                num2String = Console.ReadLine();
-            }
-
-            //Ask user for operation
-            Console.WriteLine(@"Select from the following operation
-             + - Add
-            - - Subtract
-            * - Multiply
-            / - Divide
-            ^ - power(first number to the second num");
-            Console.Write("Enter Operation: ");
-            string op = Console.ReadLine();
-
-            //Calculate the result
-            double result = calculator.doOperation(num1, num2, op);
-            //Check if result is Nan(tried to divide by zero)
-            if (double.IsNaN(result))
-            {
-                Console.WriteLine("Invailid Math Operation");
-            }
-            else
-            {
-                //Output result
-                Console.WriteLine($"{num1} {op} {num2} = {result}");
-            }
-            
+            double result = calculator.parseOperationString(equation);
+            Console.WriteLine($"Result: {result}");
             Console.WriteLine("------------------------------------------------------");
 
             //Check if user want to exit or continue
