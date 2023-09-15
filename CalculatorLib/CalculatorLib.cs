@@ -15,20 +15,34 @@ namespace CalculatorLib
         {
             double result = double.NaN;
             int index = 0;
-
             string[] all_ops = { "*", "/", "+", "-"};
+
+            input = Regex.Replace(input, @"s", "");
 
             string[] input_array = Regex.Split(input, @"([*()\^\/]|(?<!E)[\+\-])");
 
-            string[] final_array = doFirstOp(input_array, all_ops);
+            if (input_array.Length > 2)
+            {
+                string[] final_array = doFirstOp(input_array, all_ops);
 
-            double.TryParse(final_array[0], out result);
+                if(double.TryParse(final_array[0], out result))
+                {
+                    return result;
+                }
 
-            return result;
+                return result;
+            }else if(input_array.Length == 1)
+            {
+                double.TryParse(input_array[0], out result);
+                return result;
+            }
+            else
+            {
+                return result;
+            }
         }
 
         private string[] doFirstOp(string[] inputArray, string[] ops)
-
         {
             List<string> outputList = new List<string>();
             int i = 0;
@@ -43,8 +57,16 @@ namespace CalculatorLib
 
                     double num1 = 0;
                     double num2 = 0;
-                    double.TryParse(inputArray[op_index - 1], out num1);
-                    double.TryParse(inputArray[op_index + 1], out num2);
+                    if(!double.TryParse(inputArray[op_index - 1], out num1))
+                    {
+                        string[] errorOut = { "NaN" };
+                        return errorOut;
+                    }
+                    if(!double.TryParse(inputArray[op_index + 1], out num2))
+                    {
+                        string[] errorOut = { "NaN" };
+                        return errorOut;
+                    }
                     string[] result = { doOperation(num1, num2, inputArray[op_index]).ToString() };
                     ArraySegment<string> firstArraySeg = new ArraySegment<string>(inputArray, 0, op_index - 1).ToArray();
                     ArraySegment<string> secondArraySeg = new ArraySegment<string>(result).ToArray();
