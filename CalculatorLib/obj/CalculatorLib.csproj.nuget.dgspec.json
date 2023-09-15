@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj": {}
+    "C:\\Users\\sebas\\Source\\Repos\\sssmc\\ECET230Lab2Calculator\\CalculatorLib\\CalculatorLib.csproj": {}
   },
   "projects": {
-    "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj": {
+    "C:\\Users\\sebas\\Source\\Repos\\sssmc\\ECET230Lab2Calculator\\CalculatorLib\\CalculatorLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\Source\\Repos\\sssmc\\ECET230Lab2Calculator\\CalculatorLib\\CalculatorLib.csproj",
         "projectName": "CalculatorLib",
-        "projectPath": "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj",
-        "packagesPath": "/Users/sebastien/.nuget/packages/",
-        "outputPath": "/Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/obj/",
+        "projectPath": "C:\\Users\\sebas\\Source\\Repos\\sssmc\\ECET230Lab2Calculator\\CalculatorLib\\CalculatorLib.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\Source\\Repos\\sssmc\\ECET230Lab2Calculator\\CalculatorLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sebastien/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,29 +39,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
