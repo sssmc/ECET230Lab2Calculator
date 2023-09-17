@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 
 namespace CalculatorLib
@@ -11,38 +12,58 @@ namespace CalculatorLib
 
         }
 
-        public double parseOperationString(string input)
+        public double parseOperationString(string input_original)
         {
+            string input = "";
             double result = double.NaN;
             int index = 0;
             string[] all_ops = { "*", "/", "+", "-"};
 
-            input = Regex.Replace(input, @"s", "");
+            input_original = Regex.Replace(input_original, @"s", "");
 
             //Brackets
 
-            int openingBracket = input.IndexOf('(');
+            int openingBracket = input_original.IndexOf('(');
             if(openingBracket != -1)
             {
-                if(input.IndexOf('(', openingBracket + 1) != -1)
+                int closingBracket = input_original.IndexOf(")", openingBracket + 1);
+                if (input_original.IndexOf(")", openingBracket + 1) < input_original.IndexOf("(", openingBracket + 1) || input_original.IndexOf("(", openingBracket + 1) == -1)
                 {
-                    string subString = input.Substring(openingBracket + 1);
-                    input = parseOperationString(subString).ToString();
+                  
+                    if (openingBracket != 0)
+                    {
+                        input += input_original.Substring(0, openingBracket);
+                    }
+
+                    input += parseOperationString(input_original.Substring(openingBracket + 1, (closingBracket - openingBracket) - 1));
+
+                    if ((closingBracket + 1) < input_original.Length)
+                    {
+                        input += input_original.Substring(closingBracket + 1, input_original.Length - (closingBracket + 1));
+                    }
+
+                    input = parseOperationString(input).ToString();
 
                 }
                 else
                 {
-                    int closingBracket = input.IndexOf(")");
-                    if (closingBracket == -1)
+                    if (openingBracket != 0)
                     {
-                        Console.WriteLine("Bracket Error");
+                        input += input_original.Substring(0, openingBracket);
                     }
-                    else
-                    {
-                        string subString = input.Substring(openingBracket + 1, (closingBracket - openingBracket) - 1);
-                        input = input.Substring(0, openingBracket) + parseOperationString(subString).ToString();
-                    }
+                    input += parseOperationString(input_original.Substring(openingBracket + 1));
                 }
+                
+            }
+            else
+            {
+                input = input_original;
+
+            }
+
+            if (input.IndexOf(")") != -1)
+            {
+                input = input.Remove(input.IndexOf(")"), 1);
             }
 
             string[] input_array = Regex.Split(input, @"([*()\^\/]|(?<!E)[\+\-])");
