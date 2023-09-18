@@ -10,14 +10,26 @@
 /Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/refint/CalculatorLib.dll
 /Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.pdb
 /Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/ref/CalculatorLib.dll
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\CalculatorLib.AssemblyInfoInputs.cache
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\CalculatorLib.AssemblyInfo.cs
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\CalculatorLib.csproj.CoreCompileInputs.cache
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\CalculatorLib.dll
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\refint\CalculatorLib.dll
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\CalculatorLib.pdb
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\bin\Debug\net7.0\CalculatorLib.deps.json
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\bin\Debug\net7.0\CalculatorLib.dll
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\bin\Debug\net7.0\CalculatorLib.pdb
-C:\Users\sebas\Source\Repos\sssmc\ECET230Lab2Calculator\CalculatorLib\obj\Debug\net7.0\ref\CalculatorLib.dll
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.AssemblyInfoInputs.cache
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.AssemblyInfo.cs
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.csproj.CoreCompileInputs.cache
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.dll
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/refint/CalculatorLib.dll
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.pdb
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/bin/Debug/net7.0/CalculatorLib.deps.json
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/bin/Debug/net7.0/CalculatorLib.dll
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/bin/Debug/net7.0/CalculatorLib.pdb
+C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/ref/CalculatorLib.dll
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/bin/Debug/net7.0/CalculatorLib.deps.json
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/bin/Debug/net7.0/CalculatorLib.dll
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/bin/Debug/net7.0/CalculatorLib.pdb
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.csproj.AssemblyReference.cache
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.AssemblyInfoInputs.cache
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.AssemblyInfo.cs
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.csproj.CoreCompileInputs.cache
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.dll
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/refint/CalculatorLib.dll
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/CalculatorLib.pdb
+/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/obj/Debug/net7.0/ref/CalculatorLib.dll

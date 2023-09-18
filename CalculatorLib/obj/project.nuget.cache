@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BC8kT2uIT+5epO9s6daz0hrU7B9sWLCWLYB0wt8c6HKCCEueGvH/HtZFdlQA0eOhgahnAHhl0+LqTzrhbkTEKw==",
+  "dgSpecHash": "cA2yVHbxht6frefsOkqrzYZ+KPg6jPLBirkfgqw5PeGuyatYvWzGhLM8MRyejDEl1jEqnBIL/4JSnR/O7uc/WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebas\\Source\\Repos\\sssmc\\ECET230Lab2Calculator\\CalculatorLib\\CalculatorLib.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/sebastien/git/repository/ECET230Lab2Calculator/CalculatorLib/CalculatorLib.csproj",
+  "expectedPackageFiles": [
+    "/Users/sebastien/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

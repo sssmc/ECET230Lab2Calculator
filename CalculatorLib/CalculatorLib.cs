@@ -17,7 +17,7 @@ namespace CalculatorLib
             string input = "";
             double result = double.NaN;
             int index = 0;
-            string[] all_ops = { "*", "/", "+", "-"};
+            string[] all_ops = { "^", "*", "/", "+", "-"};
 
             input_original = Regex.Replace(input_original, @"s", "");
 
