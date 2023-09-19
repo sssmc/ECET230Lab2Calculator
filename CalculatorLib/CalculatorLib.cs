@@ -68,19 +68,44 @@ namespace CalculatorLib
 
             string[] input_array = Regex.Split(input, @"([*()\^\/]|(?<!E)[\+\-])");
 
+            //All the stuff for negative numbers
+            //remove empty strings from input_array
+            input_array = input_array.Where(x => !string.IsNullOrEmpty(x)).ToArray();
+
             List<string> input_list = input_array.ToList();
 
             int minusIndex;
+            int oldIndex = -1;
             do
             {
-                minusIndex = input_list.IndexOf("-");
-                if (minusIndex > 0)
+                minusIndex = input_list.IndexOf("-", oldIndex + 1);
+                oldIndex = minusIndex;
+                if (minusIndex > 0 && minusIndex < input_list.Count)
                 {
                     string firstItem = input_list[minusIndex - 1];
+                    string secondItem = input_list[minusIndex];
                     string thirdItem = input_list[minusIndex + 1];
+                    if (all_ops.Contains(firstItem) || firstItem == "(" || firstItem == ")")
+                    {
+                        string newNumber = "-" + thirdItem;
+                        //Remove the second and third items and replace them with the new number
+                        input_list.RemoveAt(minusIndex);
+                        input_list.RemoveAt(minusIndex);
+
+                        input_list.Insert(minusIndex, newNumber);
+
+                    }
+                }else if(minusIndex == 0 && input_list.Count == 2)
+                {
+                    string newNumber = "-" + input_list[1];
+                    input_list.RemoveAt(0);
+                    input_list.RemoveAt(0);
+                    input_list.Insert(0, newNumber);
                 }
 
             } while (minusIndex != -1);
+
+            input_array = input_list.ToArray();
 
             if (input_array.Length > 2)
             {

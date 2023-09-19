@@ -17,24 +17,6 @@
 /Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/CalculatorLib.pdb
 /Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.csproj.CopyComplete
 /Users/sebastien/Library/CloudStorage/OneDrive-Personal/Documents/My Files/Camosun/Fall 2023/ECET 230/Lab 2/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/Newtonsoft.Json.dll
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.exe
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.deps.json
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.runtimeconfig.json
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.dll
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.pdb
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/CalculatorLib.dll
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/CalculatorLib.pdb
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.csproj.AssemblyReference.cache
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.AssemblyInfoInputs.cache
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.AssemblyInfo.cs
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.csproj.CoreCompileInputs.cache
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.csproj.CopyComplete
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.dll
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/refint/ECET230Lab2Calculator.dll
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.pdb
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.genruntimeconfig.cache
-C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ref/ECET230Lab2Calculator.dll
 /Users/sebastien/git/repository/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator
 /Users/sebastien/git/repository/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.deps.json
 /Users/sebastien/git/repository/ECET230Lab2Calculator/ECET230Lab2Calculator/bin/Debug/net7.0/ECET230Lab2Calculator.runtimeconfig.json
@@ -54,3 +36,22 @@ C:/Users/sebas/Source/Repos/sssmc/ECET230Lab2Calculator/ECET230Lab2Calculator/ob
 /Users/sebastien/git/repository/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.pdb
 /Users/sebastien/git/repository/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ECET230Lab2Calculator.genruntimeconfig.cache
 /Users/sebastien/git/repository/ECET230Lab2Calculator/ECET230Lab2Calculator/obj/Debug/net7.0/ref/ECET230Lab2Calculator.dll
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\ECET230Lab2Calculator.exe
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\ECET230Lab2Calculator.deps.json
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\ECET230Lab2Calculator.runtimeconfig.json
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\ECET230Lab2Calculator.dll
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\ECET230Lab2Calculator.pdb
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\CalculatorLib.dll
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\bin\Debug\net7.0\CalculatorLib.pdb
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.csproj.AssemblyReference.cache
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.AssemblyInfoInputs.cache
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.AssemblyInfo.cs
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.csproj.CopyComplete
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.dll
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\refint\ECET230Lab2Calculator.dll
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.pdb
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ECET230Lab2Calculator.genruntimeconfig.cache
+C:\Users\sebas\source\repos\sssmc\ECET230Lab2Calculator\ECET230Lab2Calculator\obj\Debug\net7.0\ref\ECET230Lab2Calculator.dll

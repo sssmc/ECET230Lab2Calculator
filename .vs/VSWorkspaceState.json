@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CalculatorLib",
-    "\\ECET230Lab2Calculator"
+    "\\CalculatorLib"
   ],
-  "SelectedNode": "\\CalculatorLib\\CalculatorLib.cs",
+  "SelectedNode": "\\CalculatorLib\\CalculatorLib.csproj",
   "PreviewInSolutionExplorer": false
 }
