@@ -68,6 +68,20 @@ namespace CalculatorLib
 
             string[] input_array = Regex.Split(input, @"([*()\^\/]|(?<!E)[\+\-])");
 
+            List<string> input_list = input_array.ToList();
+
+            int minusIndex;
+            do
+            {
+                minusIndex = input_list.IndexOf("-");
+                if (minusIndex > 0)
+                {
+                    string firstItem = input_list[minusIndex - 1];
+                    string thirdItem = input_list[minusIndex + 1];
+                }
+
+            } while (minusIndex != -1);
+
             if (input_array.Length > 2)
             {
                 string[] final_array = doFirstOp(input_array, all_ops);
