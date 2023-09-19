@@ -19,10 +19,11 @@ class Program
 
         while (!stopProgram)
         {
-            //Ask User for first number
+            //Ask User for the equation
             Console.Write("Enter Equation: ");
             string equation = Console.ReadLine();
 
+            //Parse the equation
             double result = calculator.parseOperationString(equation);
             Console.WriteLine($"Result: {result}");
             Console.WriteLine("------------------------------------------------------");
